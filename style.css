@@ -1,0 +1,145 @@
+#clock {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    border-radius: 1px;
+    letter-spacing: 2px;
+  }
+
+  /*	################################################################
+	1. GENERAL STRUCTURES
+################################################################# */
+
+* {
+	margin: 0;
+	padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+body {
+	background: #fff;
+	margin: 0;
+	color: #5a5a5a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+
+p {
+	padding: 0;
+	margin-bottom: 12px;
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+	color: white;;
+	margin-top: 10px;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+  /* HEADER SECTION */
+#h {
+	background: url(../img/header.jpg) no-repeat center top;
+	padding-top: 80px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 670px;
+	width: 100%;
+	color: white;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#h h1 bold {
+	font-weight: 100;
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+
+#h h1 {
+	font-size: 40px;
+	letter-spacing: 1px;
+	margin-bottom: 40px;
+}
+
+/* COUNTDOWN CONFIGURATION */
+
+.countdown-divider {
+  padding: 144px 0px;
+}
+
+.countdown-header {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.countdown-divider img {
+  max-width: 300px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.countdown-header h1 {
+  margin-bottom: 0px;
+}
+.countdown-header:before {
+  opacity: 0.8 !important;
+}
+
+.countdown-header .uppercase {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+@media all and (max-width: 768px) {
+  .countdown-header img{
+    max-width: 150px;
+  }
+}
+.countdown {
+  text-align: center;
+  margin-top: 0px;
+}
+.countdown-row {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 300;
+}
+.countdown-section {
+  width: 25%;
+  display: inline-block;
+}
+.countdown-amount {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.countdown-period {
+  display: block;
+  font-size: 24px;
+}
+
+@media all and (max-width: 767px) {
+  .countdown {
+    margin-top: 0px;
+  }
+  .countdown-row {
+    font-size: 36px;
+  }
+  .countdown-period {
+    font-size: 16px;
+  }
+}
