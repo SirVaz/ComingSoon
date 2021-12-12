@@ -16,7 +16,9 @@
     font-family: 'Lato', sans-serif;
 }
 body {
-	background: #fff;
+	/*background: #fff;*/
+  background: url(../img/header.jpg) no-repeat;
+  background-size: cover;
 	margin: 0;
 	color: #5a5a5a;
 }
@@ -45,7 +47,7 @@ body {
 
   /* HEADER SECTION */
 #h {
-	background: url(../img/header.jpg) no-repeat center top;
+	/*background: url(../img/header.jpg) no-repeat center top;*/
 	padding-top: 80px;
 	text-align:center;
 	background-attachment: relative;
@@ -77,6 +79,11 @@ body {
 	margin-bottom: 40px;
 }
 
+#h h4 bold {
+	font-weight: 100;
+	font-size: 25px;
+	letter-spacing: 1px;
+}
 /* COUNTDOWN CONFIGURATION */
 
 .countdown-divider {
@@ -147,6 +154,7 @@ body {
 /** FOOTER */
 
 footer p {
+  
   text-align: center;
   color: black;
 }
