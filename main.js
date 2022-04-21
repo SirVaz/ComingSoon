@@ -9,6 +9,11 @@ jQuery(document).ready(function( $ ) {
     
   });
   
+  function closeDialog() {
+    let d = document.getElementById('myModal')
+    d.style.display = "none"
+    d.close()
+}
 
 /*
 const resultado = fizzBuzz(15);
@@ -68,3 +73,5 @@ function showTime() {
             .innerHTML = currentTime;
 }
 showTime();
+
+
