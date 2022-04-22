@@ -6,7 +6,6 @@ jQuery(document).ready(function( $ ) {
           until: new Date($(this).attr('data-date'))
       });
     });
-    
 });
   
 
